@@ -29,7 +29,7 @@
           </a>
           <ul class="header-list list">
             <li class="header-item">
-              <a href="" class="header-link link">Головна</a>
+              <a href="" class="header-link link transition">Головна</a>
             </li>
             <li class="header-item">
               <a href="" class="header-link link">Наші проекти</a>
@@ -62,7 +62,9 @@
           <h1 class="hero-title">
             Ми створюємо легкі рішення важких задач і проблем
           </h1>
-          <a href="" class="hero-btn link btn">Наші проекти</a>
+          <button type="button" class="hero-btn link btn" data-modal-open>
+            Наші проекти
+          </button>
         </div>
       </section>
       <section class="mobile section">
@@ -362,5 +364,11 @@
         <p>(с) 2019. Всі права захищені</p>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close>close</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
