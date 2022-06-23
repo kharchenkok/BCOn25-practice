@@ -1,0 +1,13 @@
+.header {
+  background-color: gray;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: var(--main-lh);
+  .logo {
+    margin-right: 30px;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+}

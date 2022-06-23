@@ -18,39 +18,39 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <nav class="header-nav">
+      <div class="container header__container">
+        <nav class="navigation">
           <a href="./index.html" class="logo link" lang="en">
-            Web<span class="text-black">Studio</span>
+            Web<span class="logo--black">Studio</span>
           </a>
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="" class="header-link link transition">Головна</a>
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a href="" class="navigation__link link transition">Головна</a>
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Наші проекти</a>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link">Наші проекти</a>
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Послуги</a>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link">Послуги</a>
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Новини</a>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link">Новини</a>
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Контакти</a>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact-list list">
-          <li class="header-item">
-            <a href="" class="header-link link">xxxxxx</a>
+        <ul class="contact__list list">
+          <li class="contact__item">
+            <a href="" class="contact__link link">xxxxxx</a>
           </li>
-          <li class="header-item">
-            <a href="" class="header-link link">yyyyyyyyyyyyyy</a>
+          <li class="contact__item">
+            <a href="" class="contact__link link">yyyyyyyyyyyyyy</a>
           </li>
         </ul>
       </div>
@@ -58,34 +58,34 @@
     <main>
       <section class="hero">
         <div class="container">
-          <p class="hero-text">Передова IT студія</p>
-          <h1 class="hero-title">
+          <p class="hero__text">Передова IT студія</p>
+          <h1 class="hero__title">
             Ми створюємо легкі рішення важких задач і проблем
           </h1>
-          <button type="button" class="hero-btn link btn" data-modal-open>
+          <button type="button" class="btn--center btn" data-modal-open>
             Наші проекти
           </button>
         </div>
       </section>
       <section class="mobile section">
         <div class="container">
-          <h2 class="mobile-title section-title text-black">
+          <h2 class="mobile__title section-title text-black">
             Ми створюємо мобільні додатки для великих корпорацій
           </h2>
-          <p class="mobile-text">
+          <p class="mobile__text">
             Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
             веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
             латиниці з початку XVI ст.
           </p>
-          <ul class="card-set mobile-list list">
-            <li class="mobile-item card-set-item">
-              <div class="mobile-item-circle">
-                <svg class="mobile-item-icon" width="90" height="90">
+          <ul class="card-set mobile__list list">
+            <li class="mobile__item card-set-item">
+              <div class="mobile__item-circle">
+                <svg class="mobile__item-icon" width="90" height="90">
                   <use href="./img/spite.svg#icon-list"></use>
                 </svg>
               </div>
-              <h3 class="mobile-item-title">Створення сайтів</h3>
-              <p class="mobile-item-text">
+              <h3 class="mobile__item-title">Створення сайтів</h3>
+              <p class="mobile__item-text">
                 Lorem Ipsum - це текст-"риба", часто використовує у пресі та
                 веб-дизайні.
               </p>
@@ -224,44 +224,90 @@
             латиниці з початку XVI ст.
           </p>
           <ul class="projects-list list card-set">
-
             <li class="projects-item card-set-item">
-              <a href="" target="_blank" rel="noopener noreferrer" class="projects-link">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="projects-link"
+              >
                 <div class="projects-wrap">
-                  <img src="./img/img-3.jpg" alt="код" width="255" height="255" />
-                  <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <img
+                    src="./img/img-3.jpg"
+                    alt="код"
+                    width="255"
+                    height="255"
+                  />
+                  <p class="projects-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
                 </div>
                 <h3 class="projects-title">проект 2</h3>
               </a>
             </li>
             <li class="projects-item card-set-item">
-              <a href="" target="_blank" rel="noopener noreferrer" class="projects-link">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="projects-link"
+              >
                 <div class="projects-wrap">
-                  <img src="./img/img-3.jpg" alt="код" width="255" height="255" />
-                  <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <img
+                    src="./img/img-3.jpg"
+                    alt="код"
+                    width="255"
+                    height="255"
+                  />
+                  <p class="projects-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
                 </div>
                 <h3 class="projects-title">проект 2</h3>
               </a>
             </li>
             <li class="projects-item card-set-item">
-              <a href="" target="_blank" rel="noopener noreferrer" class="projects-link">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="projects-link"
+              >
                 <div class="projects-wrap">
-                  <img src="./img/img-3.jpg" alt="код" width="255" height="255" />
-                  <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <img
+                    src="./img/img-3.jpg"
+                    alt="код"
+                    width="255"
+                    height="255"
+                  />
+                  <p class="projects-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
                 </div>
                 <h3 class="projects-title">проект 2</h3>
               </a>
             </li>
             <li class="projects-item card-set-item">
-              <a href="" target="_blank" rel="noopener noreferrer" class="projects-link">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="projects-link"
+              >
                 <div class="projects-wrap">
-                  <img src="./img/img-3.jpg" alt="код" width="255" height="255" />
-                  <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <img
+                    src="./img/img-3.jpg"
+                    alt="код"
+                    width="255"
+                    height="255"
+                  />
+                  <p class="projects-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
                 </div>
                 <h3 class="projects-title">проект 2</h3>
               </a>
             </li>
-
           </ul>
           <a href="">Всі проекти</a>
         </div>
@@ -296,7 +342,7 @@
     <footer>
       <div class="container">
         <a href="./index.html" class="logo link" lang="en">
-          Web<span class="text-white">Studio</span>
+          Web<span class="logo--white">Studio</span>
         </a>
 
         <ul class="list card-set footer-contact-list">
@@ -398,52 +444,61 @@
           </svg>
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-        <form class="modal-form">
-          <label class="modal-label">
-            <span class="modal-label-text">Имя</span>
-            <span class="modal-wrapper">
-            <input type="text" name="name" class="modal-input">
-            <svg class="modal-input-icon" width="18" height="18">
-              <use href="./img/spite.svg#icon-name"></use>
-            </svg>
-          </span>
+        <form class="form">
+          <label class="form__label">
+            <span class="form__label-text">Имя</span>
+            <span class="form__wrapper">
+              <input type="text" name="name" class="form__input" />
+              <svg class="form__input-icon" width="18" height="18">
+                <use href="./img/spite.svg#icon-name"></use>
+              </svg>
+            </span>
           </label>
-          <label class="modal-label">
-            <span class="modal-label-text">Телефон</span>
-            <span class="modal-wrapper">
-            <input type="tel" name="user-tel" class="modal-input">
-            <svg class="modal-input-icon" width="18" height="18">
-              <use href="./img/spite.svg#icon-phone"></use>
-            </svg>
-          </span>
+          <label class="form__label">
+            <span class="form__label-text">Телефон</span>
+            <span class="form__wrapper">
+              <input type="tel" name="user-tel" class="form__input" />
+              <svg class="form__input-icon" width="18" height="18">
+                <use href="./img/spite.svg#icon-phone"></use>
+              </svg>
+            </span>
           </label>
-          <label class="modal-label">
-            <span class="modal-label-text">Почта</span>
-            <span class="modal-wrapper">
-            <input type="email" name="user-email" class="modal-input">
-            <svg class="modal-input-icon" width="18" height="18">
-              <use href="./img/spite.svg#icon-mail"></use>
-            </svg>
-          </span>
+          <label class="form__label">
+            <span class="form__label-text">Почта</span>
+            <span class="form__wrapper">
+              <input type="email" name="user-email" class="form__input" />
+              <svg class="form__input-icon" width="18" height="18">
+                <use href="./img/spite.svg#icon-mail"></use>
+              </svg>
+            </span>
           </label>
-          <label class="modal-label">
-            <span class="modal-label-text">Комментарий</span>
-            <textarea name="user-text" placeholder="Введите текст" class="modal-textarea"></textarea>
+          <label class="form__label">
+            <span class="form__label-text">Комментарий</span>
+            <textarea
+              name="user-text"
+              placeholder="Введите текст"
+              class="form__textarea"
+            ></textarea>
           </label>
-          <div class="modal-policy">
-            <label class="modal-policy-label">
-              <input type="checkbox" name="policy" class="modal-check visually-hidden">
-              <span class="modal-custom-check">
-                <svg class="modal-icon-check" width="11" height="8">
+          <div class="form__policy">
+            <label class="form__policy-label">
+              <input
+                type="checkbox"
+                name="policy"
+                class="form__check visually-hidden"
+              />
+              <span class="form__custom-check">
+                <svg class="form__icon-check" width="11" height="8">
                   <use href="./img/spite.svg#icon-check"></use>
                 </svg>
               </span>
-              <span class="modal-policy-text">Соглашаюсь с рассылкой и принимаю <a href="" class="modal-link link">Условия договора</a></span>
+              <span class="form__policy-text"
+                >Соглашаюсь с рассылкой и принимаю
+                <a href="" class="form__link link">Условия договора</a></span
+              >
             </label>
           </div>
-          <button type="submit" class="hero-btn btn">
-            Отправить
-          </button>
+          <button type="submit" class="hero-btn btn">Отправить</button>
         </form>
       </div>
     </div>

@@ -1,0 +1,30 @@
+.hero {
+  background-image: url(../img/hero-img.jpg);
+  /* background-image:  url(../img/hero-img.jpg), url(../img/hero-img.jpg); */
+  /* background-size: 1920px 900px; */
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position: center right calc(50% - 550px), top left calc(50% - 450px); */
+  /* background-color: rgba(50, 50, 50, 0.7); */
+  padding-top: 220px;
+  padding-bottom: 335px;
+  &__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--main-lh);
+    text-align: center;
+    color: var(--second-text-color);
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+    text-align: center;
+    color: var(--first-title-color);
+    max-width: 829px;
+    margin: 0 auto 50px;
+  }
+}

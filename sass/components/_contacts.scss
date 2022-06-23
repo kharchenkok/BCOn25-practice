@@ -1,0 +1,18 @@
+.contact__list {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.contact__link {
+  color: var(--second-text-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: inline-block;
+
+  transition: color var(--transition);
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+}

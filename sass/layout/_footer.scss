@@ -1,0 +1,43 @@
+.footer-list {
+  --card-item: 1;
+  /* --card-gap: 30px; */
+}
+
+.footer-contact-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 35px;
+
+  color: var(--second-title-color);
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #999999;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* .footer-link:not(:first-child){
+  margin-top: 30px;
+} */
+
+.footer-contact-list {
+  --card-item: 4;
+}
+
+.footer-link-icon {
+  fill: currentColor;
+  margin-right: 15px;
+}
+
+/* .footer-list-item:first-child{
+  margin-top: 35px;
+} */
