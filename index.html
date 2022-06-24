@@ -22,6 +22,7 @@
   </head>
   <body>
     <header class="header">
+      <!-- <div class="mobile-menu" data-menu> -->
       <div class="container header__container">
         <nav class="navigation">
           <a href="./index.html" class="logo link" lang="en">
@@ -45,6 +46,14 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-button" data-menu-button>
+          <svg class="mobile-menu-icon" width="40" height="40">
+            <use href="./img/spite.svg#icon-menu"></use>
+          </svg>
+          <svg class="mobile-menu-close" width="40" height="40">
+            <use href="./img/spite.svg#icon-close"></use>
+          </svg>
+        </button>
         <ul class="contact__list list">
           <li class="contact__item">
             <a href="" class="contact__link link">xxxxxx</a>
@@ -54,6 +63,8 @@
           </li>
         </ul>
       </div>
+
+      <!-- </div> -->
     </header>
     <main>
       <section class="hero">
@@ -118,7 +129,7 @@
           <a href="" class="mobile-btn link btn">Всі послуги</a>
         </div>
       </section>
-      <section class="standarts section">
+      <!-- <section class="standarts section">
         <div class="container">
           <div class="standarts-top">
             <h2 class="standarts-title section-title text-black">
@@ -347,7 +358,7 @@
           </form>
           <p>Ми не шлем спам, і не передаємо нікому ваші дані</p>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer>
       <div class="container">
@@ -512,6 +523,35 @@
         </form>
       </div>
     </div>
+    <div class="mobile-menu" data-menu>
+      <ul class="navigation__list list">
+        <li class="navigation__item">
+          <a href="" class="navigation__link link transition">Головна</a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link link">Наші проекти</a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link link">Послуги</a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link link">Новини</a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link link">Контакти</a>
+        </li>
+      </ul>
+      <ul class="contact__list list">
+        <li class="contact__item">
+          <a href="" class="contact__link link">xxxxxx</a>
+        </li>
+        <li class="contact__item">
+          <a href="" class="contact__link link">yyyyyyyyyyyyyy</a>
+        </li>
+      </ul>
+      <!-- <button type="button" data-menu-close>Close</button> -->
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

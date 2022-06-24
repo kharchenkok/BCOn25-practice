@@ -1,20 +1,18 @@
 .navigation {
   // display: none;
   // @include mq(tab){
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   // }
-  
-  
 }
 
 .navigation__list {
-  display: none;
-  @include mq(tab){
-      display: flex;
-        gap: 30px;
-  }
+  display: flex;
+  gap: 30px;
 
+  @include mq(mob-only) {
+    flex-direction: column;
+  }
 }
 
 .navigation__link {
