@@ -1,7 +1,11 @@
 .contact__list {
-  display: flex;
-  gap: 30px;
-  margin-left: auto;
+  display: none;
+  @include mq(tab){
+    display: flex;
+      gap: 30px;
+      margin-left: auto;
+  }
+  
 }
 
 .contact__link {

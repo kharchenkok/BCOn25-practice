@@ -1,6 +1,16 @@
 .container {
-  width: 1140px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  @include mq(mob){
+    width: 480px;
+  }
+  @include mq(tab){
+    width: 768px;
+  }
+  @include mq(desc){
+    width: 1140px;
+  }
+  
 }

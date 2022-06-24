@@ -1,11 +1,20 @@
 .navigation {
-  display: flex;
-  align-items: center;
+  // display: none;
+  // @include mq(tab){
+    display: flex;
+    align-items: center;
+  // }
+  
+  
 }
 
 .navigation__list {
-  display: flex;
-  gap: 30px;
+  display: none;
+  @include mq(tab){
+      display: flex;
+        gap: 30px;
+  }
+
 }
 
 .navigation__link {

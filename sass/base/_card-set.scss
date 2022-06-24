@@ -2,6 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--card-gap);
+  @include mq(tab){
+    --card-item: 2;
+  }
 }
 
 .card-set-item {
