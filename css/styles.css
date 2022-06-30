@@ -219,6 +219,7 @@ body {
 }
 
 .mobile-item-icon-wrap {
+  position: relative;
   display: flex;
   flex-shrink: 0;
   height: 110px;
@@ -232,6 +233,9 @@ body {
 
 .mobile-item-icon {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 40px;
   height: 40px;
 }
@@ -307,7 +311,7 @@ body {
 
 .standarts-item span {
   font-size: 36px;
-  line-height: 1.47;
+  line-height: 1;
   color: #000000;
 }
 
@@ -336,6 +340,7 @@ body {
 }
 
 .standarts-icon-projects:hover {
+  color: var(--accent-color);
   fill: var(--accent-color);
 }
 
